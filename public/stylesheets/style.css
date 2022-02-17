@@ -1,0 +1,29 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.content-chat{
+  background-color: brown;
+  padding: 20px;
+  color: white;
+}
+
+.content-actions{
+  display: flex;
+  background-color: greenyellow;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+li{
+  padding: 5px;
+}
+
+.admin{
+  color: black;
+}

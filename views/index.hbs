@@ -1,0 +1,28 @@
+<div class="cabecera">
+    <h1>{{title}} 👁‍🗨</h1>
+    <p>Bienvendo al {{title}}</p>
+    <h3 id="numUsuarios"></h3>
+</div>
+
+<div class="content-chat">
+    <ul id="mensajes">
+        <li><strong>Maria:</strong> Hola</li>
+        <li><strong>Laura:</strong> Que pasa</li>
+        <li><strong>Ramon:</strong> Aqui estamos</li>
+    </ul>
+</div>
+
+
+<div class="content-actions">
+    <div>
+        <label for=""><strong>Nombre:</strong></label>
+        <input type="text" name="" id="inputNombre">
+    </div>
+    <div>
+        <label for=""><strong>Mensaje:</strong></label>
+        <input type="text" name="" id="inputMensaje">
+    </div>
+    <button type="submit" id="btnEnviar">Enviar</button>
+</div>
+
+<script src="/javascripts/client-socket.js"></script>
